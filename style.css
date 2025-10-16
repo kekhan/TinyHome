@@ -1,0 +1,142 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  color: #3a3a3a;
+  background-color: #fff;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #f8f3e9;
+  padding: 15px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 60px;
+}
+
+nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #3a3a3a;
+  font-weight: 500;
+}
+
+.book-btn {
+  background-color: #a94442; /* red accent */
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+
+/* Hero */
+#hero {
+  background: url('images/hero.jpg') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+#hero h1 {
+  font-size: 2.2rem;
+}
+
+.cta-btn {
+  display: inline-block;
+  background-color: #2f5a2f;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+/* Sections */
+.section {
+  padding: 60px 20px;
+}
+
+.light-bg {
+  background-color: #f8f3e9;
+}
+
+.section h2 {
+  text-align: center;
+  color: #2f5a2f;
+  margin-bottom: 30px;
+}
+
+/* Amenities */
+.amenities-list {
+  list-style: none;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.amenities-list li {
+  margin: 10px 0;
+}
+
+/* Things to Do */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+  color: #2f5a2f;
+  margin-bottom: 10px;
+}
+
+/* Gallery */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 12px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Booking */
+.center {
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2f5a2f;
+  color: white;
+  font-size: 0.9rem;
+}
