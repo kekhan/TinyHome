@@ -50,7 +50,10 @@ nav a {
 
 /* Hero */
 #hero {
-  background: url('76DB1242-B380-471C-BCFD-592BA6B36C8F.png') center/cover no-repeat;
+  background-image: url('76DB1242-B380-471C-BCFD-592BA6B36C8F.png');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
   color: #2f5a2f;
   text-align: center;
   padding: 200px 100px;
